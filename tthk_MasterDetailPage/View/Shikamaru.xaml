@@ -4,9 +4,12 @@
              x:Class="tthk_MasterDetailPage.View.Shikamaru">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
+            <Label Text="Shikamaru Nara" 
                 HorizontalOptions="CenterAndExpand" />
+            <Image Source="shikamaru.png"></Image>
+            <Label Text="Shikamaru Nara (奈良シカマル, Nara Shikamaru) is a shinobi of Konohagakure's Nara clan. Though lazy by nature, Shikamaru has a rare intellect that consistently allows him to prevail in combat. The responsibilities that these successes leave him with cause him frequent annoyance, but he gladly accepts them so that he may be of service to his fellow members of Team Asuma, and to prove himself to generations of the past and future."
+                   FontSize="15"></Label>
+            <Button Text="More..." x:Name="bpBut" Clicked="bpBut_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

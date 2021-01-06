@@ -4,7 +4,7 @@ using System.Text;
 
 namespace tthk_MasterDetailPage
 {
-    class MenuMasterItems
+    public class MasterMenuItems
     {
         public string Text { get; set; }
         public string Detail { get; set; }

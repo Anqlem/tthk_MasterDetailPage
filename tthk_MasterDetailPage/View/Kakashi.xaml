@@ -4,9 +4,12 @@
              x:Class="tthk_MasterDetailPage.View.Kakashi">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
+            <Label Text="Kakashi Hatake" 
                 HorizontalOptions="CenterAndExpand" />
+            <Image Source="kakashi.png"></Image>
+            <Label Text="Kakashi Hatake (はたけカカシ, Hatake Kakashi) is a shinobi of Konohagakure's Hatake clan. Famed as Kakashi of the Sharingan (写輪眼のカカシ, Sharingan no Kakashi), he is one of Konoha's most talented ninja; regularly looked to for advice and leadership despite his personal dislike of responsibility."
+                   FontSize="15"></Label>
+            <Button Text="More..." x:Name="bpBut"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

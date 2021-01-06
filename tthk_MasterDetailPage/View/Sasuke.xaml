@@ -4,9 +4,12 @@
              x:Class="tthk_MasterDetailPage.View.Sasuke">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
+            <Label Text="Sasuke Uchiha" 
                 HorizontalOptions="CenterAndExpand" />
+            <Image Source="sasuke.png"></Image>
+            <Label Text="Sasuke Uchiha (うちはサスケ, Uchiha Sasuke) is one of the last surviving members of Konohagakure's Uchiha clan. After his older brother, Itachi, slaughtered their clan, Sasuke made it his mission in life to avenge them by killing Itachi. He is added to Team 7 upon becoming a ninja and, through competition with his rival and best friend, Naruto Uzumaki, Sasuke starts developing his skills. Dissatisfied with his progress, he defects from Konoha so that he can acquire the strength needed to exact his revenge."
+                   FontSize="15"></Label>
+            <Button Text="More..." x:Name="bpBut" Clicked="bpBut_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

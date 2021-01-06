@@ -4,9 +4,12 @@
              x:Class="tthk_MasterDetailPage.View.Sarada">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
+            <Label Text="Sarada Uchiha" 
                 HorizontalOptions="CenterAndExpand" />
+            <Image Source="sarada.png"></Image>
+            <Label Text="Sarada Uchiha (うちはサラダ, Uchiha Sarada) is a kunoichi from Konohagakure's Uchiha clan. Because she grew up without having her father around, Sarada initially struggles to understand who she is or what she's supposed to be. After meeting him with the help of Naruto Uzumaki, Sarada comes to believe that she is defined by the connections she has with others, and as a member of Team Konohamaru, she seeks to someday become Hokage so that she can connect with as many people as possible."
+                   FontSize="15"></Label>
+            <Button Text="More..." x:Name="bpBut" Clicked="bpBut_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

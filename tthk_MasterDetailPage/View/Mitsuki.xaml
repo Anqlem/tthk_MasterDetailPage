@@ -4,9 +4,12 @@
              x:Class="tthk_MasterDetailPage.View.Mitsuki">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
+            <Label Text="Mitsuki" 
                 HorizontalOptions="CenterAndExpand" />
+            <Image Source="mitsuki.png"></Image>
+            <Label Text="Mitsuki (ミツキ, Mitsuki) is a synthetic human that was created as a partial clone of Orochimaru. Immigrating to Konohagakure to confirm whether or not Boruto Uzumaki was his 'sun', he became a shinobi and was placed on Team Konohamaru."
+                   FontSize="15"></Label>
+            <Button Text="More..." x:Name="bpBut" Clicked="bpBut_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

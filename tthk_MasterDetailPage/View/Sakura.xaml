@@ -4,9 +4,12 @@
              x:Class="tthk_MasterDetailPage.View.Sakura">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
+            <Label Text="Sakura Haruno" 
                 HorizontalOptions="CenterAndExpand" />
+            <Image Source="sakura.png"></Image>
+            <Label Text="Sakura Uchiha (うちはサクラ, Uchiha Sakura, née Haruno (春野)) is a kunoichi of Konohagakure. When assigned to Team 7, Sakura quickly finds herself ill-prepared for the duties of a shinobi. However, after training under the Sannin Tsunade, she overcomes this, and becomes recognised as one of the greatest medical-nin in the world."
+                   FontSize="15"></Label>
+            <Button Text="More..." x:Name="bpBut" Clicked="bpBut_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
